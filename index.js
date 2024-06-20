@@ -2,7 +2,7 @@ const searchForm = document.getElementById("search-form");
 const searchBox = document.getElementById("search-box");
 const searchResult = document.getElementById("search-result");
 const showMore = document.getElementById("show-more");
-const api_key = config.API_KEY;
+const api_key = config.API_KEY;    // Define your own image api key in config.js file.
 
 let keyword = "";
 let page = 1;
